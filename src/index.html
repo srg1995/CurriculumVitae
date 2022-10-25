@@ -14,13 +14,12 @@
       class="dark:bg-blue-400 bg-slate-400 p-2 rounded-full w-10 justify-end place-content-end font-bold float-right mr-4"
     >
       <svg
-        class="hidden dark:block dark:text-yellow-400 stroke-2"
+        class="hidden dark:block dark:text-yellow-400 stroke-2 w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-6 h-6"
       >
         <path
           stroke-linecap="round"
@@ -29,13 +28,12 @@
         />
       </svg>
       <svg
-        class="dark:hidden text-sky-800 stroke-2"
+        class="dark:hidden text-sky-800 stroke-2 w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-6 h-6"
       >
         <path
           stroke-linecap="round"
@@ -45,11 +43,9 @@
       </svg>
     </button>
     <div class="rounded mt-40 mx-4">
-      <img
-        class="w-40 h-40 rounded-full mx-auto -m-20"
-        src="./img/portada2.png"
-        alt=""
-      />
+      <div class="w-40 h-40 -m-20 mx-auto">
+        <img class="mx-auto rounded-full" src="./img/portada2.png" alt="" />
+      </div>
       <div
         class="h-56 bg-blue-200 shadow-blue-300/20 shadow-2xl rounded dark:bg-blue-50"
       >
@@ -57,7 +53,7 @@
           Sergio Sacrist&aacute;n Santero
         </h1>
         <p class="text-center mx-auto text-blue-400">Desarrollador Frontend</p>
-        <p class="text-center mx-auto text-blue-400">Salamanca,España</p>
+        <p class="text-center mx-auto text-blue-400">Salamanca,Espa&ntilde;a</p>
       </div>
     </div>
     <div
@@ -77,16 +73,17 @@
     </div>
 
     <div class="mx-4 mb-10 text-justify dark:text-white">
-      Me presento, soy Sergio Sacristan desarrollador Frontend, me considero una
-      persona con iniciativa propia y con ganas de aumentar mis conocimientos
-      dia tras dia. Entre mis virtudes destaca el trabajo en equipo, me encanta
-      colaborar en proyectos cojuntos y aprender de la gente.Soy una persona
-      simpatica y que se relaciona con facilidad. Me he formado en todos los
-      campos de la informatica desde la configuracion de redes y servidores
-      hasta el desarrollo web, que es lo que mas me apasiona
+      Me presento, soy Sergio Sacrist&aacute;n, desarrollador Frontend. <br/>Me
+      considero una persona con iniciativa propia y con ganas de aumentar mis
+      conocimientos d&iacute;a tras d&iacute;a. Entre mis virtudes destaca
+      el trabajo en equipo, por eso me encanta colaborar en proyectos conjuntos y
+      aprender de la gente. Soy una persona simp&aacute;tica y que se relaciona
+      con facilidad.<br />Me he formado en todos los campos de la
+      inform&aacute;tica, desde la configuraci&oacute;n de redes y servidores
+      hasta el desarrollo web, que es lo que m&aacute;s me apasiona.
     </div>
 
-    <div class="flex gap-3 mx-4 my-3">
+    <div class="flex flex-wrap gap-3 mx-4 my-3">
       <a
         href="#estudios"
         class="px-4 py-2 rounded-full bg-blue-300 text-blue-500 transition ease-in-out hover:scale-105 hover:bg-blue-100 dark:text-black"
@@ -105,7 +102,7 @@
       <a
         href="#preguntame"
         class="px-4 py-2 rounded-full bg-blue-300 text-blue-500 transition ease-in-out hover:scale-105 hover:bg-blue-100 dark:text-black"
-        >Preguntame</a
+        >Preg&uacute;ntame</a
       >
     </div>
     <div id="estudios" class="mx-4 rounded overflow-hidden mt-10">
@@ -118,10 +115,10 @@
         class="grid grid-cols-1 lg:grid-cols-3 divide-dashed divide-y text-sm text-center font-bold overflow-hidden gap-4"
       >
         <div
-          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 place-items-end"
+          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 lg:place-items-end"
         >
           <p class="mb-4">
-            Sistemas Microinformativos y redes, Ciclo Formativo de Grado
+            Sistemas Microinform&aacute;icos y redes, Ciclo Formativo de Grado
             Medio<br />(SMR)
           </p>
           <div>
@@ -129,19 +126,23 @@
             <div>
               <ul
                 role="list"
-                class="marker:text-sky-400 lg:list-disc pl-12 lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
+                class="marker:text-sky-400 lg:list-disc lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
               >
                 <li>Reparar y configurar de ordenadores.</li>
                 <li>Instalar y configurar redes.</li>
                 <li>
-                  Usar aplicaciones ofimáticas y de tratamiento de imágenes.
+                  Usar aplicaciones ofim&aacute;ticas y de tratamiento de
+                  im&aacute;genes.
                 </li>
-                <li>Diseñar páginas web y utilizar gestores de contenidos.</li>
+                <li>
+                  Dise&ntilde;ar p&aacute;ginas web y utilizar gestores de
+                  contenidos.
+                </li>
               </ul>
             </div>
           </div>
           <div>
-            <p>Herramientas y lenguajes utilizados</p>
+            <p class="mx-auto">Herramientas y lenguajes utilizados</p>
             <div class="flex flex-wrap gap-2 mx-auto justify-center">
               <img class="w-10 h-10" src="./img/css3.png" alt="" />
               <img class="w-10 h-10" src="./img/html5.png" alt="" />
@@ -155,7 +156,7 @@
           </div>
         </div>
         <div
-          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 place-items-end"
+          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 lg:place-items-end"
         >
           <p class="mb-4">
             Desarrollo de Aplicaciones Multiplataforma, Ciclo Formativo de Grado
@@ -165,21 +166,21 @@
             <p>Conocimientos adquiridos</p>
             <ul
               role="list"
-              class="marker:text-sky-400 lg:list-disc pl-12 lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
+              class="marker:text-sky-400 lg:list-disc lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
             >
               <li>
-                Desarrollar aplicaciones informáticas para la gestión
-                empresarial y de negocio.
+                Desarrollar aplicaciones inform&aacute;ticas para la
+                gesti&oacute;n empresarial y de negocio.
               </li>
-              <li>Desarrollar aplicaciones de propósito general.</li>
+              <li>Desarrollar aplicaciones de prop&oacute;sito general.</li>
               <li>
-                Desarrollar aplicaciones en el ámbito del entretenimiento y la
-                informática móvil.
+                Desarrollar aplicaciones en el &aacute;mbito del entretenimiento
+                y la inform&aacute;tica m&oacute;vil.
               </li>
             </ul>
           </div>
           <div>
-            <p>Herramientas y lenguajes utilizados</p>
+            <p class="mx-auto">Herramientas y lenguajes utilizados</p>
             <div class="flex flex-wrap gap-2 mx-auto justify-center">
               <img class="w-10 h-10" src="./img/css3.png" alt="" />
               <img class="w-10 h-10" src="./img/html5.png" alt="" />
@@ -199,31 +200,31 @@
         </div>
 
         <div
-          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 place-items-end"
+          class="bg-blue-50 shadow-xl rounded overflow-hidden my-4 p-4 text-center leading-8 grid grid-cols-1 lg:place-items-end"
         >
           <p class="mb-4">
-            Desarrollo de Aplicaiones Web, Ciclo Formativo de Grado Superior<br />(DAW)
+            Desarrollo de Aplicaciones Web, Ciclo Formativo de Grado Superior<br />(DAW)
           </p>
           <div>
             <p>Conocimientos adquiridos</p>
             <div>
               <ul
                 role="list"
-                class="marker:text-sky-400 lg:list-disc pl-12 lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
+                class="marker:text-sky-400 lg:list-disc lg:pl-4 space-y-3 text-slate-400 text-center lg:text-left mx-auto mb-4"
               >
                 <li>
-                  Desarrollar aplicaciones en el ámbito web, tanto del lado del
-                  servidor como del lado cliente.
+                  Desarrollar aplicaciones en el &aacute;mbito web, tanto del
+                  lado del servidor como del lado cliente.
                 </li>
-                <li>Desarrollar aplicaciones de propósito general.</li>
+                <li>Desarrollar aplicaciones de prop&oacute;sito general.</li>
                 <li>
-                  Desarrollar aplicaciones en el ámbito web, tanto del lado del
-                  servidor como del lado cliente.
+                  Desarrollar aplicaciones en el &aacute;mbito web, tanto del
+                  lado del servidor como del lado cliente.
                 </li>
               </ul>
             </div>
             <div>
-              <p>Herramientas y lenguajes utilizados</p>
+              <p class="mx-auto">Herramientas y lenguajes utilizados</p>
               <div class="flex flex-wrap gap-2 mx-auto justify-center">
                 <img class="w-10 h-10" src="./img/css3.png" alt="" />
                 <img class="w-10 h-10" src="./img/html5.png" alt="" />
@@ -258,16 +259,16 @@
           Nttdata<br />2018 (actualidad)
         </div>
         <div class="p-4 leading-8">
-          Cargo: Técnico Superior en Desarrollo de Aplicaciones WEB.<br />
-          Función: desarrollador de páginas web de
+          Cargo: T&eacute;cnico Superior en Desarrollo de Aplicaciones Web.<br />
+          Funci&oacute;n: Desarrollador de p&aacute;ginas web de
           <a
             class="underline decoration-green-600 hover:text-green-600"
             href="http://www.iberdrola.es"
             >Iberdrola</a
           >.<br />
-          Trabajo realizado: Realización de páginas web, landings y formularios
-          de contratacion<br />
-          Metodologias, lenguajes y Frameworks utilizados:<br />
+          Trabajo realizado: Realizaci&oacute;n de p&aacute;ginas web, landings
+          y formularios de contrataci&oacute;n.<br />
+          Metodolog&iacute;as, lenguajes y Frameworks utilizados:<br />
           <div class="flex flex-wrap gap-4 mt-4">
             <p
               class="px-3 py-1 rounded-full bg-blue-300 text-blue-500 dark:text-black w-auto"
@@ -326,12 +327,13 @@
         class="flex flex-wrap divide-y divide-blue-600 dark:divide-white my-6 dark:text-white"
       >
         <div class="p-4 max-w-2xl text-blue-800 dark:text-slate-400 font-bold">
-          Proyectos personales<br />2021 (actualidad)
+          Aidiapp<br />2021
         </div>
         <div class="p-4 leading-8">
-          Función: Desarrollar aplicaciones angula para clientes privados.<br />
-          Trabajo realizado: aplicaciones web Angular, <br />
-          Metodologias, lenguajes y Frameworks utilizados:<br />
+          Cargo: Desarrollador Fullstack  .<br/>
+          Funci&oacute;n: Desarrollar Aplicaciones Angular para la gesti&oacute;n de cultivos.<br />
+          Trabajo realizado: Aplicaciones Web Angular. <br />
+          Metodolog&iacute;as, lenguajes y Frameworks utilizados:<br />
           <div class="flex flex-wrap gap-4 mt-4">
             <p
               class="px-3 py-1 rounded-full bg-blue-300 text-blue-500 dark:text-black w-auto"
@@ -378,12 +380,12 @@
           Air Creative<br />2017
         </div>
         <div class="p-4 leading-8">
-          Cargo: Técnico Superior en Desarrollo de Aplicaciones
+          Cargo: T&eacute;cnico Superior en Desarrollo de Aplicaciones
           Multiplataforma.<br />
-          Función: desarrollador de páginas web.<br />
-          Trabajo realizado: Aplicación destinada a la venta de material de
-          gimnasio,<br />
-          Metodologias, lenguajes y Frameworks utilizados:<br />
+          Funci&oacute;n: Desarrollador de p&aacute;ginas web.<br />
+          Trabajo realizado: Aplicaci&oacute;n destinada a la venta de material
+          de gimnasio.<br />
+          Metodolog&iacute;as, lenguajes y Frameworks utilizados:<br />
           <div class="flex flex-wrap gap-4 mt-4">
             <p
               class="px-3 py-1 rounded-full bg-blue-300 text-blue-500 dark:text-black w-auto"
@@ -440,17 +442,19 @@
           Universidad de Salamanca<br />2017
         </div>
         <div class="p-4 leading-8">
-          Cargo: Técnico Superior en Desarrollo de Aplicaciones
+          Cargo: T&eacute;cnico Superior en Desarrollo de Aplicaciones
           Multiplataforma.<br />
-          Función: desarrollador de páginas web destinadas a la enseñanza.<br />
-          Trabajo realizado: Aplicaciones destinadas a la creación visualización
-          y modificación de esqueletos y estructuras moleculares (<a
+          Funci&oacute;n: Desarrollador de p&aacute;ginas web destinadas a la
+          ense&ntilde;anza.<br />
+          Trabajo realizado: Aplicaciones destinadas a la creaci&oacute;n,
+          visualizaci&oacute;n y modificaci&oacute;n de esqueletos y estructuras
+          moleculares (<a
             class="underline decoration-red-600 hover:text-red-600"
             target="_blank"
             href="http://proteinasestructurafuncion.usal.es/"
-            >proteinas-estructura-funcion</a
-          >)<br />
-          Metodologias, lenguajes y Frameworks utilizados:<br />
+            >prote&iacute;nas-estructura-funci&oacute;n</a
+          >).<br />
+          Metodolog&iacute;as, lenguajes y Frameworks utilizados:<br />
           <div class="flex flex-wrap gap-4 mt-4">
             <p
               class="px-3 py-1 rounded-full bg-blue-300 text-blue-500 dark:text-black w-auto"
@@ -507,11 +511,12 @@
           Plastic Omnium<br />2015
         </div>
         <div class="p-4 leading-8">
-          Cargo: Técnico en Sistemas microinformáticos y redes.<br />
-          Función: Instalación de sistemas operativos. Puesta en marcha y
-          mantenimiento de pequeñas instalaciones con servicios de red local, e
-          internet. Resolución de problemas de la explotación de aplicaciones.
-          Montaje de equipos informáticos.
+          Cargo: T&eacute;cnico en Sistemas microinform&aacute;ticos y redes.<br />
+          Funci&oacute;n: Instalaci&oacute;n de sistemas operativos. Puesta en
+          marcha y mantenimiento de peque&ntilde;as instalaciones con servicios
+          de red local e Internet. Resoluci&oacute;n de problemas de la
+          explotaci&oacute;n de aplicaciones. Montaje de equipos
+          inform&aacute;ticos.
         </div>
       </div>
     </div>
@@ -522,54 +527,243 @@
       >
         Habilidades
       </h2>
-      <div
-        class="grid grid-cols-1 lg:grid-cols-2"
-        >
-        <p class="text-black dark:text-white">Preguntame por <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" class="underline decoration-orange-500 hover:text-orange-500">HTML</a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="underline decoration-sky-500 hover:text-sky-500">CSS3</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="underline decoration-yellow-400 hover:text-yellow-400">JS</a></p>  
-        <p class="text-black dark:text-white">Destreza con Framework de <a href="https://getbootstrap.com/" target="_blank" class="underline decoration-violet-700 hover:text-violet-700">Bootstrap</a></p>  
-        <p class="text-black dark:text-white">Desarrollandome en <a href="https://angular.io/" target="_blank" class="underline decoration-red-700 hover:text-red-700">Angular</a></p>  
-        <p class="text-black dark:text-white">Certificacion de <a href="./docs/certificadoPSMI.pdf" target="_blank" class="underline decoration-blue-600 hover:text-blue-600">Scrum Master(PSMI)</a></p>
-        <p class="text-black dark:text-white">Creador de webs con <a href="https://tailwindcss.com/" target="_blank" class="underline decoration-sky-500 hover:text-sky-500">Tailwind</a></p>  
-        <p class="text-black dark:text-white"><a href="#preguntame" class="underline decoration-lime-500 hover:text-lime-500">Preguntame</a> para proyectos colaborativos</p>  
+      <div class="grid grid-cols-1 lg:grid-cols-2 p-4">
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            Preg&uacute;ntame por
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/HTML"
+              target="_blank"
+              class="underline decoration-orange-500 hover:text-orange-500"
+              >HTML</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              class="underline decoration-sky-500 hover:text-sky-500"
+            >
+              CSS3</a
+            >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              class="underline decoration-yellow-400 hover:text-yellow-400"
+            >
+              JS</a
+            >
+          </p>
         </div>
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            Destreza con Framework de
+            <a
+              href="https://getbootstrap.com/"
+              target="_blank"
+              class="underline decoration-violet-700 hover:text-violet-700"
+              >Bootstrap</a
+            >
+          </p>
+        </div>
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            Desarroll&aacute;ndome en
+            <a
+              href="https://angular.io/"
+              target="_blank"
+              class="underline decoration-red-600 hover:text-red-600"
+              >Angular</a
+            >
+          </p>
+        </div>
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            Certificaci&oacute;n de
+            <a
+              href="./docs/certificadoPSMI.pdf"
+              target="_blank"
+              class="underline decoration-blue-600 hover:text-blue-600"
+              >Scrum Master(PSMI)</a
+            >
+          </p>
+        </div>
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            Creador de webs con
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              class="underline decoration-sky-500 hover:text-sky-500"
+              >Tailwind</a
+            >
+          </p>
+        </div>
+        <div class="text-black dark:text-white flex">
+          <svg
+            class="stroke-sky-800 dark:stroke-white text-red"
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            id="_24x24_On_Light_Arrow-Right"
+            data-name="24x24/On Light/Arrow-Right"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            fill="none"
+            stroke-width="1.5"
+          >
+            <path
+              id="Shape"
+              d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+              transform="translate(9.25 6.25)"
+            />
+          </svg>
+          <p>
+            <a
+              href="#preguntame"
+              class="underline decoration-lime-500 hover:text-lime-500"
+              >Preg&uacute;ntame</a
+            >
+            para proyectos colaborativos
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div id="preguntame" class="my-16  max-w-xl mx-auto">
+    <div id="preguntame" class="my-16 max-w-xl mx-auto p-4">
       <h2
         class="text-center text-3xl mb-6 font-bold text-black dark:text-slate-400"
       >
         Resuelve tus dudas
       </h2>
-        <form action="" class="grid grid-cols-1 gap-6">
-          <div class="grid">
-            <label for="asunto" class="text-sm text-left pl-4">Email</label>
-            <input id="asunto" name="asunto" type="email" placeholder="email@email.com" class="form-input px-4 py-3 rounded-full">
-          </div>
-          <div class="grid">
-            <label for="cuerpo" class="text-sm text-left pl-4">Preguntame</label>
-            <textarea name="cuerpo" id="cuerpo" cols="30" rows="10" class="form-textarea" placeholder="Contactame para resolver todas tus dudas sobre mi perfil, inquietudes, retos..."></textarea>
-          </div>
-          
+      <form
+        action="POST"
+        data-netlify-recaptcha="true"
+        name="contact"
+        class="grid grid-cols-1 gap-6"
+        data-netlify="true"
+      >
+        <div class="grid">
+          <label for="asunto" class="text-sm text-left pl-4">Email</label>
+          <input
+            id="asunto"
+            name="asunto"
+            type="email"
+            placeholder="email@email.com"
+            class="form-input px-4 py-3 rounded-full"
+          />
+        </div>
+        <div class="grid">
+          <label for="cuerpo" class="text-sm text-left pl-4">Preg&uacute;ntame</label>
+          <textarea
+            name="cuerpo"
+            id="cuerpo"
+            cols="30"
+            rows="10"
+            class="form-textarea"
+            placeholder="Cont&aacute;ctame para resolver todas tus dudas sobre mi perfil, inquietudes, retos..."
+          ></textarea>
+        </div>
 
-  
-          <a onclick="sendForm()" class="py-2 px-6 bg-sky-300 rounded-full mx-auto">enviar  </a>
-        </form>
+        <div data-netlify-recaptcha="true"></div>
+        <button type="submit" class="py-2 px-6 bg-sky-300 rounded-full mx-auto">
+          Enviar
+        </button>
+      </form>
     </div>
 
     <script>
       function changeColour() {
         document.documentElement.classList.toggle("dark");
-
-      }   
-      function sendForm(){
-
-
-        let asunto = document.getElementById("asunto").value
-        let cuerpo = document.getElementById("cuerpo").value
-        let correo = "mailto:sergiosacristan8@gmail.com?subject="+asunto+"&body="+cuerpo+"";
-        window.location.href = correo;
-      } 
-      
-      </script>
+      }
+    </script>
   </body>
 </html>
